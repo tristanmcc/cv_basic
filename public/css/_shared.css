@@ -1,0 +1,46 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    margin-top: 0;
+    
+}
+h1{
+    font-size:36px;
+    margin-bottom: 0;
+}
+h2{
+    font-size:24px;
+    margin-bottom: var(--space-small);
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: var(--space-small);
+}
+
+p{
+    margin-top: 0;
+}
+
+hr{
+    margin-bottom: var(--spave-big);
+}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: var(--space-bigger) var(--space-medium) var(--space-big);
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: 900;
+    color: #797979;
+    text-transform: uppercase;
+}

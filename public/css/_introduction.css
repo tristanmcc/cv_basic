@@ -1,0 +1,41 @@
+.introduction .personal-info{
+    margin-bottom: var(--space-big);
+    text-align: center;
+}
+
+
+.introduction .avatar{
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 140px;
+    border-radius: 50%;
+    border: solid 2px #505050;
+    margin-bottom: var(--space-big);
+}
+
+.introduction p{
+    max-width: 640px;
+    font-size: 18px;
+    margin-bottom: var(--space-big);    
+}
+
+.introduction .subtitle{
+    font-size: 24px;
+    margin-bottom: var(--space-big);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media (min-width: 550px){
+.introduction .personal-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.introduction .avatar{
+    margin-right: var(--space-big);
+    }
+}
+
